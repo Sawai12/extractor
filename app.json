@@ -1,7 +1,7 @@
 {
     "name": "Master-Extractor",
     "description": "Master Extractor Bot for Telegram, built with Pyrogram.",
-    "repository": "https://github.com/Last-Update-Oct",
+    "repository": "https://github.com/Sawai12/extractor",
     "keywords": [
         "pyrogram",
         "docker"
