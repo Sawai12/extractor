@@ -1,4 +1,3 @@
-```dockerfile
 FROM python:3.12.6
 
 WORKDIR /app
@@ -33,4 +32,3 @@ RUN pip install --no-cache-dir --upgrade pip && \
     aiocron
 
 CMD ["python", "./main.py"]
-```
