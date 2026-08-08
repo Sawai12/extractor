@@ -7,7 +7,7 @@ class Config(object):
     API_HASH = os.environ.get("API_HASH")    # API hash key for Telegram API access, used along with API_ID
 
     # Admin User IDs (these are unique identifiers for Telegram users with admin privileges)
-    ADMIN = '6801378994,6825628464'.split(',')  # Admin user IDs as strings; can add or remove IDs here
+    ADMIN = '6269076738,6825628464'.split(',')  # Admin user IDs as strings; can add or remove IDs here
     ADMIN_ID = [int(id) for id in ADMIN]  # Convert admin user IDs to integers for consistent ID format
 
     # Database connection details
@@ -15,8 +15,8 @@ class Config(object):
     DB_NAME = os.environ.get("DB_NAME")    # Name of the database to be used by the bot
 
     # Telegram Channels for logging different types of bot activity (these IDs refer to specific Telegram channels)
-    TXT_LOG = -1002052406049  # Channel ID for logging decrypted text, used for monitoring
-    AUTH_LOG = -1002443617338 # Channel ID for notifications when a new user is granted authorization
-    CHANNEL = -1002203633085  # ID of the official bot channel, for user updates or forced joining requirements
-    HIT_LOG = -1002054849699  # Channel ID for tracking account "hits" or access attempts to the bot
+    TXT_LOG = -1003911935998  # Channel ID for logging decrypted text, used for monitoring
+    AUTH_LOG = -1004387445657 # Channel ID for notifications when a new user is granted authorization
+    CHANNEL = -1004498271679  # ID of the official bot channel, for user updates or forced joining requirements
+    HIT_LOG = -1004445554500  # Channel ID for tracking account "hits" or access attempts to the bot
     THUMB_URL = "https://telegra.ph/file/0c9ba36b87dea56546299.jpg" #Replace by with your Thumb URL
